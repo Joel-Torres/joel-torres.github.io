@@ -363,7 +363,7 @@ footer {
   height: auto;
 }
 
-.overlay,.overlay2,.overlay3,.overlay4 {
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -376,16 +376,30 @@ footer {
   background-color: #008CBA;
 }
 
-.container:hover .overlay,.overlay2,.overlay3,.overlay4 {
-  opacity: 1;
+.contact.git:hover .overlay,
+.contact.ghibli:hover .overlay{
+  opacity: 0.8;
 }
 
 .text h3 a{
   color: white;
   font-size: 20px;
   position: absolute;
+  top: 40%;
+  left: 50%;
+  text-decoration: none;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text h4 a{
+  margin-top: 45px;
+  color: white;
+  font-size: 20px;
+  position: absolute;
   top: 50%;
   left: 50%;
+  text-decoration: none;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
