@@ -378,7 +378,8 @@ footer {
 
 .contact.git .overlay:hover,
 .contact.ghibli .overlay:hover,
-.contact.huron .overlay:hover
+.contact.huron .overlay:hover,
+.contact.kali .overlay:hover
  {
   opacity: 0.8;
 }

@@ -7,11 +7,6 @@ body {
   background-color:#f4f4f4;
 }
 
-.wood {
-  color:brown;
-  font-size:30px;
-}
-
 /*global */
 .container {
   width:80%;
@@ -70,3 +65,16 @@ header li a:hover{
   font-weight:bold;
 }
 
+/*showcase*/
+#showcase {
+  min-height:400px;
+  background:url('images/outdoor-well.jpg') no-repeat -200px -1200px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1 {
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
