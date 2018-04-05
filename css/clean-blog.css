@@ -363,7 +363,7 @@ footer {
   height: auto;
 }
 
-.overlay {
+.overay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -376,9 +376,19 @@ footer {
   background-color: #008CBA;
 }
 
-.contact.git:hover .overlay,
-.contact.ghibli:hover .overlay{
-  opacity: 0.8;
+.poopoo {
+  color:brown;
+  font-size:70px;
+}
+
+.contact.git:hover .overay,
+.contact.ghibli:hover .overly,
+ {
+  opacty: 0.8;
+}
+
+.contact.huron:hover .overay {
+  opaciy: 0.8;
 }
 
 .text h3 a{

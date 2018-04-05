@@ -376,10 +376,19 @@ footer {
   background-color: #008CBA;
 }
 
-.contact.git:hover .overlay,
-.contact.ghibli:hover .overlay{
+.contact.git .overlay:hover,
+.contact.ghibli .overlay:hover,
+.contact.huron .overlay:hover
+ {
   opacity: 0.8;
 }
+
+/*.contact.git .overlay, .contact.ghibli .overlay:hover  {
+  opacity: 0.8;
+}*/
+
+
+
 
 .text h3 a{
   color: white;
