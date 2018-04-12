@@ -27,6 +27,14 @@ ul {
   border:none;
 }
 
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px
+}
+
 /*header*/
 header {
   background-color:#35424a;
@@ -130,6 +138,18 @@ header li a:hover{
   width:200px;
 }
 
+/*main-col*/
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/*aside*/
+aside#sidebar{
+  float:right;
+  margin-top:10px;
+  width:30%;
+}
 /*footer*/
 footer{
   margin-top:20px;
