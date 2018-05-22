@@ -157,7 +157,7 @@ header.masthead {
   header.masthead .post-heading,
   header.masthead .site-heading {
     padding: 200px 0 150px;
-    color: orange; }
+    color: #ffffff; }
     @media only screen and (min-width: 768px) {
       header.masthead .page-heading,
       header.masthead .post-heading,
@@ -286,7 +286,7 @@ form .form-group:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee; }
 
 footer {
-  padding: 50px 0 65px; }
+  padding: 50px 0 65px; margin-top:40px;}
   footer .list-inline {
     margin: 0;
     padding: 0; }
@@ -352,9 +352,10 @@ footer {
 
 
 /**********over-lay***********/
-.container {
+.container-overlay {
   position: relative;
   width: 50%;
+  margin: 0 auto;
 }
 
 .image-circle {
@@ -374,13 +375,15 @@ footer {
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
+  height:170px;
   
 }
 
 .contact.git .overlay:hover,
 .contact.ghibli .overlay:hover,
 .contact.huron .overlay:hover,
-.contact.kali .overlay:hover
+.contact.kali .overlay:hover,
+.contact.menu .overlay:hover
  {
   opacity: 0.8;
 }
@@ -389,7 +392,7 @@ footer {
   opacity: 0.8;
 }*/
 
-
+.wurk{color: white;}
 
 
 .text h3 a{
