@@ -45,8 +45,21 @@ header {
   border-bottom:#e8491d 3px solid;
 }
 
+svg {
+  margin-left: 5px;
+}
+
+.side-nav a {
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ccc;
+  display: block;
+  transition: 0.3s;
+}
+
 .wood{
-  color:blue;
+  color:rgb(246, 246, 250);
 }
 
 header a {
@@ -180,7 +193,38 @@ footer{
   text-align:center;
 }
 
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#111;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
 /*Media Queries*/
+
+@media(min-width:568px){
+  .open-slide{display:none}
+}
+
+@media(max-width:568px){
+  .container nav{display:none}
+}
+
 @media (max-width: 768px) {
   header #branding,
   header nav,
