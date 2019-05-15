@@ -21,6 +21,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
   </head>
 
@@ -69,6 +70,7 @@
               <h1 id="greeting"></h1>
               <h2 id="welcome"></h2>
               <span class="subheading">A Front-End Developers Journey</span>
+              <button id="follow" onclick="myFunction()">Follow me!</button>
             </div>
           </div>
         </div>
@@ -79,9 +81,12 @@
 
 
     <!-- Main Content -->
-    <!--<div class="container">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
+
+        <div id="snackbar">Make sure to check out my Github account aswell</div>
+
+        <!--<div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-preview">
             <a href="post.html">
               <h2 class="post-title">
@@ -139,10 +144,10 @@
           <!--<div class="clearfix">
             <a class="btn btn-secondary float-right" href="#">Older Posts &rarr;</a>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
-    <hr>-->
+    <!--<hr>-->
 
     <!-- Footer -->
     <footer>
@@ -188,42 +193,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
+    <script src="js/app.js"></script>
 
-    <!-- script for greeting -->
-    <script>
-      var todayDate = new Date();
-      var todayHour = todayDate.getHours();
-      var greeting;
-
-      (function greet (){
-      if (todayHour>18){
-        greeting = 'Good Evening!';
-        document.getElementById("greeting").innerHTML = greeting;
-      } else if (todayHour>12){
-        greeting = 'Good Afternoon';
-        document.getElementById("greeting").innerHTML = greeting;
-      } else if (todayHour>0){
-        greeting = 'Good Morning';
-        document.getElementById("greeting").innerHTML = greeting;
-      }
-      })();
-
-      // <!-- script typewriter effect -->
-      var i = 0;
-      var txt = 'Welcome to my site';
-      var speed = 170;
-
-      (function message() {
-        if(i < txt.length) {
-          document.getElementById('welcome').innerHTML += txt.charAt(i);
-          i++;
-          setTimeout(message, speed);
-        }
-      })();
-       
-      
-      
-    </script>
+    
     
 
   </body>
